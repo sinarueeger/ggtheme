@@ -5,6 +5,8 @@ I should probably rename this repo differently. ggtheme is already a package: ht
 
 And I should definitely turn it into an R package.
 
+https://www.epfl.ch/campus/services/communication/wp-content/uploads/2019/03/EPFL-brand-guidelines.pdf
+
 ### Usage
 
 How to use it:
