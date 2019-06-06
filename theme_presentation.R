@@ -2,13 +2,17 @@
 
 ## used initially
 
+epfl_gray <- "#413D3A"
+
 ggplot2::theme_set(hrbrthemes::theme_ipsum(
   subtitle_size = 14,
   caption_size = 9,
   axis_title_size = 16,
   axis_text_size = 10,
   strip_text_size = 10,
-  ticks = TRUE
+  ticks = TRUE,
+  axis_col = epfl_gray,
+  grid_col = epfl_gray
 ))
 ggplot2::qplot(mpg, wt, data = mtcars, colour = I("red")) + facet_wrap(~ gear)+ labs(title = "sdf") 
 ggplot2::theme_update(
@@ -20,7 +24,7 @@ ggplot2::theme_update(
     inherit.blank = TRUE
   ),
   axis.ticks = ggplot2::element_line(
-    colour = "black", 
+    colour = epfl_gray, 
     size = 0.5,
     inherit.blank = TRUE
     
@@ -45,8 +49,8 @@ ggplot2::theme_update(
     inherit.blank = TRUE
   ),
   strip.background = ggplot2::element_rect(
-    fill = "black",
-    colour = "black",
+    fill = epfl_gray,
+    colour = epfl_gray,
     inherit.blank = TRUE
   ),
   panel.grid.major = ggplot2::element_line(
