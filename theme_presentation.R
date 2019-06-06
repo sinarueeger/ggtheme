@@ -6,7 +6,8 @@ ggplot2::theme_set(hrbrthemes::theme_ipsum(
   subtitle_size = 14,
   caption_size = 9,
   axis_title_size = 16,
-  axis_text_size = 14,
+  axis_text_size = 10,
+  strip_text_size = 10,
   ticks = TRUE
 ))
 ggplot2::qplot(mpg, wt, data = mtcars, colour = I("red")) + facet_wrap(~ gear)+ labs(title = "sdf") 
