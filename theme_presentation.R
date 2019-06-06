@@ -10,7 +10,7 @@ ggplot2::theme_set(hrbrthemes::theme_ipsum(
   caption_size = 9,
   axis_title_size = 16,
   axis_text_size = 10,
-  strip_text_size = 10,
+  strip_text_size = 12,
   ticks = TRUE,
   axis_col = epfl_gray,
   grid_col = epfl_lightgray
