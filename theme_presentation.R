@@ -14,7 +14,7 @@ ggplot2::theme_set(hrbrthemes::theme_ipsum(
   axis_col = epfl_gray,
   grid_col = epfl_gray
 ))
-ggplot2::qplot(mpg, wt, data = mtcars, colour = I("red")) + facet_wrap(~ gear)+ labs(title = "sdf") 
+
 ggplot2::theme_update(
   
   panel.border = ggplot2::element_rect(
@@ -49,8 +49,8 @@ ggplot2::theme_update(
     inherit.blank = TRUE
   ),
   strip.background = ggplot2::element_rect(
-    fill = epfl_gray,
-    colour = epfl_gray,
+    fill = "#413D3A",
+    colour = "#413D3A",
     inherit.blank = TRUE
   ),
   panel.grid.major = ggplot2::element_line(
