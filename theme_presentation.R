@@ -49,8 +49,8 @@ ggplot2::theme_update(
     inherit.blank = TRUE
   ),
   strip.background = ggplot2::element_rect(
-    fill = "#413D3A",
-    colour = "#413D3A",
+    fill = epfl_gray,
+    colour = epfl_gray,
     inherit.blank = TRUE
   ),
   panel.grid.major = ggplot2::element_line(
