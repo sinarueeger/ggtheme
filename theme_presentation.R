@@ -19,7 +19,7 @@ ggplot2::theme_update(
   
   panel.border = ggplot2::element_rect(
     fill = NA, 
-    colour = "black",
+    colour = epfl_gray,
     size = 0.5,
     inherit.blank = TRUE
   ),
@@ -37,7 +37,7 @@ ggplot2::theme_update(
     inherit.blank = TRUE
   ),
   panel.grid = ggplot2::element_line(
-    colour = "black",
+    colour = epfl_gray,
     inherit.blank = TRUE
   ),
   panel.grid.minor = ggplot2::element_line(
