@@ -57,7 +57,7 @@ ggplot2::theme_update(
   )
 )
 
-theme_presentation <- ggplot2::theme_get()
-ggplot2::qplot(mpg, wt, data = mtcars, colour = I("red")) + facet_wrap(~ gear)+ labs(title = "sdf") 
+# theme_presentation <- ggplot2::theme_get()
+# ggplot2::qplot(mpg, wt, data = mtcars, colour = I("red")) + facet_wrap(~ gear)+ labs(title = "sdf") 
 
 
