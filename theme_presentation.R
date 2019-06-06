@@ -30,7 +30,7 @@ ggplot2::theme_update(
     inherit.blank = TRUE
     
   ),
-  axis.ticks.length = unit(3, "pt"),
+  axis.ticks.length = unit(8, "pt"),
   
   panel.background = ggplot2::element_rect(
     fill = "white",
