@@ -3,6 +3,7 @@
 ## used initially
 
 epfl_gray <- "#413D3A"
+epfl_lightgray <- "#CAC7C7"
 
 ggplot2::theme_set(hrbrthemes::theme_ipsum(
   subtitle_size = 14,
@@ -12,7 +13,7 @@ ggplot2::theme_set(hrbrthemes::theme_ipsum(
   strip_text_size = 10,
   ticks = TRUE,
   axis_col = epfl_gray,
-  grid_col = epfl_gray
+  grid_col = epfl_lightgray
 ))
 
 ggplot2::theme_update(
@@ -37,7 +38,7 @@ ggplot2::theme_update(
     inherit.blank = TRUE
   ),
   panel.grid = ggplot2::element_line(
-    colour = epfl_gray,
+    colour = epfl_lightgray,
     inherit.blank = TRUE
   ),
   panel.grid.minor = ggplot2::element_line(
